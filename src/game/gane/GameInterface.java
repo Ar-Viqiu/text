@@ -15,7 +15,7 @@ public class GameInterface extends JPanel {
 		tank = new Tank(100,100,25);//10.
 		game_jframe = new JFrame("坦克大战-单机版1.1");
 		bullets = new ArrayList<>();//创建子弹列表。
-		game_jframe.setSize(800,600);
+		game_jframe.setSize(1000,800);
 		game_jframe.setLayout(null);
 		game_jframe.setLocationRelativeTo(null);
 		game_jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -25,7 +25,7 @@ public class GameInterface extends JPanel {
 		game_jframe.addKeyListener(listerTank);//注册监听。
 		
 		
-		this.setSize(800,600);//1.面板管理器
+		this.setSize(1000,800);//1.面板管理器
 		this.setLayout(null);
 		this.setBackground(Color.pink);
 		
