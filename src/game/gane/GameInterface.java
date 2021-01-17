@@ -13,7 +13,7 @@ public class GameInterface extends JPanel {
 	public ArrayList<Bullets> bullets;//18.子弹列表变量。
 	public GameInterface() {
 		tank = new Tank(100,100,25);//10.
-		game_jframe = new JFrame("坦克大战");
+		game_jframe = new JFrame("坦克大战-单机版");
 		bullets = new ArrayList<>();//创建子弹列表。
 		game_jframe.setSize(800,600);
 		game_jframe.setLayout(null);
