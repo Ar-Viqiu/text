@@ -27,7 +27,7 @@ public class GameInterface extends JPanel {
 		
 		this.setSize(1000,800);//1.面板管理器
 		this.setLayout(null);
-		this.setBackground(Color.pink);
+		this.setBackground(Color.CYAN);
 		
 		game_jframe.add(this);//2.面板管理器加到容器中。
 		game_jframe.setVisible(true);
